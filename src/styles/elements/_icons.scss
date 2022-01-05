@@ -1,0 +1,77 @@
+
+%icon-arrow-down {
+    content: "\EA01";
+}
+
+.icon-arrow-down {
+    &::before {
+        @extend %icon-arrow-down;
+    }
+}
+
+
+%icon-arrow {
+    content: "\EA02";
+}
+
+.icon-arrow {
+    &::before {
+        @extend %icon-arrow;
+    }
+}
+
+
+%icon-facebook {
+    content: "\EA03";
+}
+
+.icon-facebook {
+    &::before {
+        @extend %icon-facebook;
+    }
+}
+
+
+%icon-instagram {
+    content: "\EA04";
+}
+
+.icon-instagram {
+    &::before {
+        @extend %icon-instagram;
+    }
+}
+
+
+%icon-menu {
+    content: "\EA05";
+}
+
+.icon-menu {
+    &::before {
+        @extend %icon-menu;
+    }
+}
+
+
+%icon-twitter {
+    content: "\EA06";
+}
+
+.icon-twitter {
+    &::before {
+        @extend %icon-twitter;
+    }
+}
+
+
+%icon-youtube {
+    content: "\EA07";
+}
+
+.icon-youtube {
+    &::before {
+        @extend %icon-youtube;
+    }
+}
+

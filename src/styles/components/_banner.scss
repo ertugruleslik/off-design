@@ -1,0 +1,73 @@
+.banner {
+  width: 100%;
+  height: 600px;
+
+  @media screen and (max-width : 600px) {
+    height: 400px;
+  }
+
+  .swiper {
+    height: 100%;
+
+    &-slide {
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+    }
+  }
+
+  .swiper-pagination {
+    position: relative;
+    margin-top: -100px;
+    z-index: 2;
+
+    &-bullet {
+      display: inline-block;
+      width: 10px;
+      height: 10px;
+      background: rgba(216, 216, 216, .15);
+      margin-right: 5px;
+      border-radius: 20px;
+      border: 1px solid rgba(216, 216, 216, .15);
+      cursor: pointer;
+
+      &-active {
+        border-color: #FFFFFF;
+      }
+    }
+  }
+
+  .container {
+    position: relative;
+    top: 0;
+    height: 100%;
+  }
+
+  &-content {
+    position: relative;
+    top: 50%;
+    width: 50%;
+    transform: translateY(-60%);
+
+    @media screen and (max-width : 1024px) {
+      width: 90%;
+    }
+  }
+
+  &-title {
+    margin-bottom: 20px;
+    font-size: 55px;
+    font-weight: normal;
+    color: #fff;
+
+    @media screen and (max-width : 700px) {
+      font-size: 30px;
+    }
+  }
+
+  &-text {
+    margin-bottom: 25px;
+    font-size: 17px;
+    color: #fff;
+  }
+}

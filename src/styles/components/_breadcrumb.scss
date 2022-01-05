@@ -1,0 +1,29 @@
+.breadcrumb {
+  margin-top: 45px;
+
+  &-list {
+    display: flex;
+
+    @media screen and (max-width : 480px) {
+      flex-direction: column;
+    }
+
+    li {
+      display: flex;
+      align-items: center;
+      margin-right: 10px;
+      color: #333740;
+
+      a {
+        margin-right: 10px;
+        font-size: 14px;
+        color: #333740;
+
+        &.active {
+          color: #0A7AFF;
+        }
+      }
+    }
+  }
+
+}

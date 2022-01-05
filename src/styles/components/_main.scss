@@ -1,0 +1,108 @@
+.garden {
+  padding: 40px 0;
+
+  &-items {
+    display: flex;
+    gap: 60px;
+
+    @media screen and (max-width : 1024px) {
+      flex-wrap: wrap;
+      gap: 4%;
+      row-gap: 25px;
+    }
+  }
+
+  .item {
+
+
+  }
+
+  &-title {
+    display: inline-block;
+    height: 90px;
+    margin-top: 15px;
+    font-size: 25px;
+    color: #262527;
+
+    @media screen and (max-width : 1024px) {
+      height: auto;
+      margin-bottom: 10px;
+    }
+  }
+}
+
+.living {
+
+  .content-title {
+    margin-bottom: 15px;
+  }
+
+  &-item {
+    margin-bottom: 30px;
+  }
+
+  &-title {
+    height: 48px;
+    margin-bottom: 15px;
+    font-size: 20px;
+
+    @media screen and (max-width : 1024px) {
+      height: auto;
+      margin-bottom: 10px;
+    }
+  }
+
+  &-text {
+    font-size: 15px;
+  }
+}
+
+.kitchen {
+  margin-bottom: 30px;
+  padding: 40px 0;
+
+  @media screen and (max-width : 1024px) {
+    margin-bottom: 0;
+    padding-top: 0;
+  }
+
+  .items {
+    display: flex;
+    gap: 40px;
+
+    @media screen and (max-width : 1024px) {
+      flex-wrap: wrap;
+      gap: 4%;
+      row-gap: 25px;
+    }
+  }
+
+  &-title {
+    display: inline-block;
+    height: 54px;
+    margin-top: 15px;
+    font-size: 18px;
+    color: #262527;
+
+    @media screen and (max-width : 1024px) {
+      height: auto;
+      margin-bottom: 10px;
+    }
+  }
+}
+
+.bedroom {
+  padding: 40px 0;
+
+  &-items {
+    display: flex;
+    gap: 60px;
+  }
+
+  &-title {
+    display: inline-block;
+    margin: 15px 0;
+    font-size: 20px;
+    color: #262527;
+  }
+}

@@ -1,0 +1,25 @@
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 140px;
+  height: 46px;
+  border-radius: 0 !important;
+  font-size: 15px !important;
+  cursor: pointer;
+
+  &.full {
+    width: 100%;
+  }
+
+   &-primary {
+      background: #FF9F0A !important;
+     color: #333740 !important;
+   }
+
+  &-secondary {
+    background: rgba(216, 216, 216, .15) !important;
+    border: 1px solid #fff !important;
+    color: #fff !important;
+  }
+}
