@@ -1,5 +1,5 @@
 <div class="kitchen">
-    <div class="content-title {{ kitchenClass }}">Kitchen Designs</div>
+    <div class="content-title {{ kitchenClass }}">{% if tabTitle %} {{ tabTitle}} {% else %}Kitchen Designs{% endif %}</div>
     <div class="items">
         <div class="item">
             <div class="item-img"><img src="assets/images/kitchen1.png" alt=""></div>

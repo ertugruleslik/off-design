@@ -2,10 +2,12 @@
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 140px;
-  height: 46px;
+  width: 170px;
+  height: 45px;
   border-radius: 0 !important;
+  border: 0;
   font-size: 15px !important;
+  background: #FF9F0A;
   cursor: pointer;
 
   &.full {

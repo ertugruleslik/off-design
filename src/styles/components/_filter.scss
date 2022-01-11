@@ -11,7 +11,93 @@
     padding: 20px 0;
   }
 
+  @media screen and (min-width : 1024px) {
+
+    &.fixed {
+      position: sticky !important;
+      top: 0;
+      background: #fff !important;
+      box-shadow: 0 31px 24px rgba(4,4,4,.14);
+
+      .filter {
+
+        &-content {
+
+          &.hide {
+            display: none;
+          }
+        }
+
+        &-menu {
+          position: absolute;
+          display: inline-block;
+          margin-left: -50px;
+          font-size: 28px;
+          cursor: pointer;
+
+          &.hide {
+            display: none;
+          }
+        }
+
+        &-menus {
+          display: none;
+
+          &.show {
+            display: inline-block;
+          }
+
+          & li a {
+            font-size: 14px;
+            color: #333740;
+
+            &.active:before, &:hover:before {
+              margin-top: 48px;
+            }
+          }
+
+          .drop-menu li a {
+            color: #fff;
+          }
+        }
+      }
+    }
+  }
+
+  &-menus {
+    display: none;
+  }
+
+  &-menu {
+    display: none;
+  }
+
+  &-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+    width: 100%;
+
+    @media screen and (max-width : 1024px) {
+      flex-direction: column;
+    }
+  }
+
+  &-close {
+    display: none;
+    position: absolute;
+    margin-left: -49px;
+    font-size: 18px;
+    cursor: pointer;
+
+    &.show {
+      display: inline-block;
+    }
+  }
+
   .container {
+    position: relative;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -24,6 +110,10 @@
 
   &-search {
     width: 30%;
+
+    input {
+      font-weight: 600;
+    }
 
     @media screen and (max-width : 1024px) {
       width: 100%;

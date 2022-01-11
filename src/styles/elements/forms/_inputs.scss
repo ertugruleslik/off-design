@@ -28,16 +28,44 @@ select.dropdown {
 
 input {
   width: 100%;
-  padding: 10px 20px;
+  height: 45px;
+  padding: 0 20px;
   font-size: 14px;
   background: transparent;
   outline: none;
-  border: 1px solid #535153;
-  border-radius: 8px;
+  border: 1px solid #B6BCC4;
   color: #5f5f5f;
   box-sizing: border-box;
+  font-family: Gilroy !important;
+
+  &::placeholder {
+    color: #727272;
+    font-weight: 500;
+  }
+
+  &:-ms-input-placeholder {
+    color: #727272;
+    font-weight: 500;
+  }
+
+  &::-ms-input-placeholder {
+    color: #727272;
+    font-weight: 500;
+  }
 
   &.small {
     padding: 7px 15px;
   }
+}
+
+textarea {
+  width: 100%;
+  padding: 0 20px;
+  font-size: 14px;
+  background: transparent;
+  outline: none;
+  border: 1px solid #B6BCC4;
+  color: #5f5f5f;
+  box-sizing: border-box;
+  font-family: Gilroy !important;
 }

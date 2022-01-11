@@ -1,0 +1,40 @@
+.comment-form {
+  margin-top: 15px;
+
+  @media screen and (max-width : 900px) {
+    margin-bottom: 20px;
+  }
+
+  &-col {
+    display: flex;
+
+    @media screen and (max-width : 500px) {
+      flex-direction: column;
+    }
+  }
+
+  &-label {
+    width: 260px;
+    margin-right: 10px;
+
+    @media screen and (max-width : 500px) {
+      width: 100%;
+      margin-bottom: 10px;
+    }
+
+    &.full {
+      width: 100%;
+      margin-top: 15px;
+
+      @media screen and (max-width : 500px) {
+        margin-top: 0;
+      }
+    }
+  }
+
+  &-buttons {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+  }
+}

@@ -1,0 +1,141 @@
+.detail {
+  margin-top: 25px;
+
+  .filter {
+    background: transparent;
+    border: 0;
+
+    select.dropdown {
+      color: #313742;
+      border-color: #313742;
+    }
+
+    .form-label {
+      color: #323741;
+    }
+    .swiper-button-next, .swiper-button-prev {
+      color: #313742;
+    }
+
+    input {
+      color: #323741;
+      border-color: #323741;
+    }
+  }
+
+  &-columns {
+    display: flex;
+
+    @media screen and (max-width : 1150px) {
+      flex-direction: column;
+    }
+  }
+
+  &-left {
+    min-width: 760px;
+    width: 760px;
+
+    @media screen and (max-width : 1024px) {
+      width: 100%;
+      min-width: 100%;
+    }
+  }
+
+  &-right {
+    margin-left: 30px;
+
+    @media screen and (max-width : 1150px) {
+      margin: 0;
+    }
+  }
+
+  &-social {
+    display: inline-flex;
+    align-items: center;
+    margin-bottom: 30px;
+
+    &-list {
+      display: flex;
+
+      li {
+        margin-right: 5px;
+
+        &:last-child {
+          margin-right: 0;
+        }
+
+        span {
+          display: inline-block;
+          font-size: 20px;
+        }
+      }
+    }
+
+    &-hr {
+      display: inline-block;
+      width: 30px;
+      height: 1px;
+      margin: 0 10px;
+      border: 0;
+      background: #323741;
+    }
+
+    &-info {
+      font-size: 11px;
+      font-style: italic;
+    }
+  }
+}
+
+.related {
+
+  &-title {
+    margin-bottom: 15px;
+    font-size: 18px;
+    font-weight: 600;
+  }
+
+  &-img {
+    width: 100px;
+    height: 100px;
+    min-width: 100px;
+  }
+
+  &-post-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 20px;
+  }
+
+  &-post {
+    display: flex;
+    margin-bottom: 20px;
+    font-size: 16px;
+    font-weight: 600;
+
+    span {
+      display: inline-block;
+      width: 100%;
+      margin-top: 10px;
+      font-size: 14px;
+      color: #8E8E8E;
+      font-weight: 500;
+    }
+  }
+}
+
+.advertise {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 80px 0;
+  width: 360px;
+  height: 480px;
+  background: #D8D8D8;
+  font-size: 18px;
+
+  @media screen and (max-width : 1024px) {
+    display: none;
+  }
+}
