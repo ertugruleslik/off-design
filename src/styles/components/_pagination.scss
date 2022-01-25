@@ -1,0 +1,44 @@
+.pagination {
+  display: flex;
+  align-items: center;
+  font-size: 10px;
+  color: #262527;
+
+  &-list {
+    display: flex;
+    margin: 2px 0 0 10px;
+
+    li {
+      margin-right: 3px;
+
+      a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 22px;
+        height: 22px;
+        font-size: 14px;
+        color: #cacdcf;
+        border-radius: 6px;
+
+        &.arrow {
+          color: #575D64;
+
+          span {
+            font-size: 11px;
+          }
+
+          &.prev {
+            transform: rotate(180deg);
+          }
+        }
+
+        &.active {
+          background: rgba(201, 209, 216, .2);
+          border:1px solid rgba(27, 29, 35, .2);
+          color: #1B1D23;
+        }
+      }
+    }
+  }
+}

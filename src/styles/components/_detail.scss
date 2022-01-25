@@ -8,6 +8,9 @@
     select.dropdown {
       color: #313742;
       border-color: #313742;
+      background: url(../images/select-dark.svg) right center no-repeat;
+      background-size: 15px;
+      background-position: right 10px center;
     }
 
     .form-label {

@@ -17,7 +17,8 @@
       position: sticky !important;
       top: 0;
       background: #fff !important;
-      box-shadow: 0 31px 24px rgba(4,4,4,.14);
+      box-shadow: 0 31px 24px rgba(4,4,4, .06);
+      z-index: 20;
 
       .filter {
 

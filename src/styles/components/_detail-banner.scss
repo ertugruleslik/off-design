@@ -16,9 +16,11 @@
     }
 
     &-title {
-     width: 100%;
-     font-size: 55px;
-     color: #333740;
+      width: 100%;
+      margin-bottom: 13px;
+      font-size: 55px;
+      color: #333740;
+      font-weight: 600;
       line-height: 1;
 
       @media screen and (max-width : 1024px) {

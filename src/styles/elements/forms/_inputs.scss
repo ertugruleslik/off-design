@@ -4,6 +4,7 @@ select.dropdown {
   width: 140px;
   height: 46px;
   font-size: 14px;
+  font-weight: 600;
   padding: 0 10px;
   background: transparent;
   outline: none;
@@ -60,7 +61,7 @@ input {
 
 textarea {
   width: 100%;
-  padding: 0 20px;
+  padding: 10px 20px;
   font-size: 14px;
   background: transparent;
   outline: none;
