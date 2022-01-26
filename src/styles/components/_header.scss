@@ -4,6 +4,32 @@
   width: 100%;
   z-index: 10;
 
+  &.fixed {
+    position: sticky;
+    top: 0;
+    padding: 25px 0;
+    background: #fff;
+    box-shadow: 0 31px 24px rgba(4,4,4, .06);
+    z-index: 20;
+
+    .light {
+      display: none !important;
+    }
+
+    .dark {
+      display: inline-block !important;
+    }
+
+    .menus > li > a {
+      font-size: 14px;
+      color: #333740;
+
+      @media screen and (max-width : 1024px) {
+        color: #fff;
+      }
+    }
+  }
+
   .logo {
 
     .dark {

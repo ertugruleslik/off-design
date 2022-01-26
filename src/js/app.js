@@ -74,4 +74,10 @@ $(window).bind('scroll', function () {
         $('.filter-menu').removeClass('hide');
         $('.filter-close').removeClass('show');
     }
+
+    if ($(window).scrollTop() > 60 && !($('.page-main').hasClass('detail'))) {
+        $('.header').addClass('fixed');
+    } else {
+        $('.header ').removeClass('fixed');
+    }
 });
